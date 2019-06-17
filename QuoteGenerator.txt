@@ -1,0 +1,9 @@
+<script>
+	var quotes = ["1", "2", "3", "4", "5"];
+	function generateCode() {
+    		var rand = Math.floor(Math.random() * 5);
+    		return quotes[rand];
+	}
+</script>
+<p id="fortune"></p>
+<script>document.getElementById("fortune").innerHTML = generateCode()</script>

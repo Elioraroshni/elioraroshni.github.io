@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav li {
+    display: inline-block;
+}
+.nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15 px;
+}
+.nav li.active a {
+    background-color: #0C475D;
+}
+.nav li a:hover {
+    border: 1px solid white;
+    background-color: #0C475D;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+p#fortune {
+    background-color: #1C213F;
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 40em;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+}
+.lab2 {
+    background-image: linear-gradient(rgba(10,10,10,0.5),rgba(0,0,0,0.5)), url(img/p5.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+#textPAGES {
+    display: block;
+    position: absolute;
+    width: 40em;
+    float: inherit;
+    margin-top: 500px;
+    transform: translate(50%, -50%)
+}
+.colorChanger {
+    position: relative;
+    top: 70%;
+    left: 85%;
+}
+
+.colorChanger button {
+    height: 30px;
+    width: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div#converter {
+    background-color: #0C475D;
+    float: left;
+    height: auto;
+    display: inline;
+    width: 40%;
+    border: 2px solid black;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    padding: 20px;
+    margin: 50px;
+}
+#output {
+    font-family: Serif;
+    color: black;
+    text-align: center;
+    float: right;
+    top: 20px;
+}
+#calc {
+    margin: auto;
+    float: left;
+    position: relative;
+    left: 40%;
+    margin-top: 15%;
+}
+#numIn {
+    float: left;
+    position: relative;
+    padding: 10px;
+    border: 2px solid black;
+}

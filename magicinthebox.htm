@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Magic Box</title>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script type ="text/javascript" src="jscript.js"></script>
+    </head>
+    <header class="lab2">
+        <div class="row">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="javascriptBasics.htm">PAGES</a></li>
+                <li><a href="calculate.htm">CALCULATE</a></li>
+                <li><a href="heroConverter.htm">CONVERT</a></li>
+                <li class="active"><a href="magicinthebox.htm">MAGIC</a></li>
+            </ul>
+        </div>
+
+        <div style="float: left; position: relative; left: 35%; margin-top: 10%;">
+          <p style = "color: white;font-size:46px;text-align: relative;">Magic Box</p>
+
+
+            <input type="hidden" value="lower" id = "case">
+            <textarea rows="24" cols="80" id="textInput" style="margin-left: -20%"></textarea>
+            <div style="margin-left: -20%">
+                <input type="button" class="buttonMagic" value="Clear" onclick="clearText()">
+				<input type="button" class="buttonMagic" value="Capitalize" onclick="capitalize()">
+				<input type="button" class="buttonMagic" value="Sort" onclick="sort()">
+				<input type="button" class="buttonMagic" value="Reverse" onclick="reverse()">
+				<input type="button" class="buttonMagic" value="Strip Blank" onclick="strip()">
+				<input type="button" class="buttonMagic" value="Add Numbers" onclick="addNumber()">
+				<input type="button" class="buttonMagic" value="Shuffle" onclick="shuffle()">
+            </div>
+        </div>
+
+    </header>
+<html>

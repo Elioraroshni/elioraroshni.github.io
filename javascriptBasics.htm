@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JavaScripting</title>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script type ="text/javascript" src="jscript.js"></script>
+    </head>
+    <header class="lab2">
+        <div class="row">
+            <ul class="nav">
+                <li><a href="index.html">HOME</a></li>
+                <li class="active"><a href="javascriptBasics.htm">QUOTE BOX</a></li>
+                <li><a href="calculate.htm">CALCULATE</a></li>
+                <li><a href="heroConverter.htm">CONVERT</a></li>
+                <li><a href="magicinthebox.htm">MAGIC</a></li>
+            </ul>
+        </div>
+        <div id="textPAGES">
+            <p id="fortune" style="text-align: center"></p>
+            <script>document.getElementById("fortune").innerHTML = generateCode()</script>
+        </div>
+
+        <div class="colorChanger">
+            <button onclick="cssChanger('monospace', '#313A87', '22px', '#F5534F','#F5534F')" style="background-color: #313A87 ; border: 2px solid #F5534F;"></button>
+			<button onclick="cssChanger('Sans-serif', '#F3B900', '18px', '#00E973','black',)" style="background-color: #F3B900 ; border: 2px solid #00E973;"></button>
+			<button onclick="cssChanger('Serif', '#F5534F', '20px', '#F8E9E9','white')" style="background-color: #F5534F ; border: 2px solid #F8E9E9;"></button>
+			<button onclick="cssChanger('VerdanaSans-serif', '#F8E9E9', '12px', '#F3B900','#313A87')" style="background-color: #F8E9E9 ; border: 2px solid #F3B900;"></button>
+	   </div>
+
+
+
+
+    </header>
+<html>
